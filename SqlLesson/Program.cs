@@ -60,7 +60,7 @@ namespace SqlLesson
                 {
                 Id = 999
                 };
-            //success = StudentController.DeleteStudent(999);
+            success = StudentController.DeleteStudent(999);
 
             students = StudentController.GetAllStudents();
             foreach (var student0 in students)

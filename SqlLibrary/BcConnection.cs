@@ -7,7 +7,7 @@ namespace SqlLibrary
     public class BcConnection
         {
 
-        public SqlConncection Connection { get; set; }
+        public SqlConnection Connection { get; set; }
 
         public void Connect(string server, string database, string auth)
             {
